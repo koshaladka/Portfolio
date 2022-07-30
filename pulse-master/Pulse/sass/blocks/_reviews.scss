@@ -1,0 +1,54 @@
+.reviews {
+    
+
+    .reviews_people {
+        display: flex;
+        justify-content: start;
+        margin-top: 60px;
+        &:last-child {
+            margin-bottom: 50px;
+        }
+    }
+
+    img {
+        display: block;
+        width: 169px;
+        height: 169px;
+    }
+
+    .reviews_descr {
+        margin-left: 61px;
+          
+               
+    }
+
+    .reviews_text {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+        &:nth-child(1) {
+            margin-top: 0px;
+        }   
+              
+    }
+
+    .reviews_name {
+        margin-bottom: 0;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        /* identical to box height, or 100% */
+        color: #0D0D0D;
+    }
+
+    .reviews_subtitle {
+        margin-top: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+
+}

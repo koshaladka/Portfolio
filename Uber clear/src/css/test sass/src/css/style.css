@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/* переменная */
+/* line 9, G:/Мой диск/2 Личные папки/Алена/сайт 2.0/test/src/sass/style.sass */
+h1 {
+  color: white;
+  font-size: 30px;
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: black;
+}
+
+/* line 14, G:/Мой диск/2 Личные папки/Алена/сайт 2.0/test/src/sass/style.sass */
+h2 {
+  color: blue;
+}
+
+/* line 17, G:/Мой диск/2 Личные папки/Алена/сайт 2.0/test/src/sass/style.sass */
+.block {
+  background-color: blue;
+}
+
+/* line 19, G:/Мой диск/2 Личные папки/Алена/сайт 2.0/test/src/sass/style.sass */
+.block h3 {
+  color: white;
+}
+
+/* line 21, G:/Мой диск/2 Личные папки/Алена/сайт 2.0/test/src/sass/style.sass */
+.block_color {
+  background-color: white;
+}
+
+/* line 23, G:/Мой диск/2 Личные папки/Алена/сайт 2.0/test/src/sass/style.sass */
+.block_color button {
+  display: block;
+  width: 250px;
+  height: 200px;
+  background-color: black;
+}
+
+/* line 25, G:/Мой диск/2 Личные папки/Алена/сайт 2.0/test/src/sass/style.sass */
+.block .block_color {
+  color: pink;
+}
+
+/*# sourceMappingURL=style.css.map */

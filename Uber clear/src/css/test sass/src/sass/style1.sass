@@ -1,0 +1,26 @@
+$text_color: blue /* переменная */
+@mixin box
+    display: block
+    width: 250px
+    height: 200px
+    background-color: black
+    
+    
+h1
+    color: white
+    font-size: 30px
+    @include box
+
+h2
+    color: $text_color
+    
+.block
+    background-color: $text_color
+    h3
+        color: white
+    &_color
+        background-color: white
+        button
+            @include box
+    .block_color
+        color: pink
