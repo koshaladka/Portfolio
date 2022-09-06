@@ -1,0 +1,493 @@
+
+
+
+
+
+.big_map {
+   
+
+    width: 100%;
+    position: absolute;
+    top: -150%; 
+    left: 55%;
+    transform: translateX(-50%);
+    transition: all 0.9s ease-in-out;
+
+    @media  (min-width: 330px) {
+        top: -155%; 
+    }
+
+    @media  (min-width: 370px) {
+        top: -160%; 
+    }
+
+    @media  (min-width: 420px) {
+        top: -170%; 
+    }
+  
+    @media  (min-width: 440px) {
+        top: -180%; 
+    }
+
+    @media  (min-width: 450px) {
+        top: -210%; 
+    }
+
+    @media  (min-width: 500px) {
+        top: -230%; 
+    }
+
+    @media  (min-width: 550px) {
+        top: -260%; 
+    }
+
+    @media  (min-width: 600px) {
+        top: -280%; 
+    }
+
+    @media  (min-width: 650px) {
+        top: -350%; 
+    }
+
+    @media  (min-width: 758px) {
+        top: -390%; 
+    }
+
+    @media  (min-width: 900px) {
+        top: -450%; 
+    }
+
+    @media  (min-width: 1000px) {
+        top: -450%; 
+    }
+
+    @media  (min-width: 1100px) {
+        top: -550%; 
+    }
+
+    @media  (min-width: 1299px) {
+        top: -280%; 
+    }
+
+    @media  (min-width: 1499px) {
+        top: -280%; 
+    }
+
+    @media  (min-width: 1650px) {
+        top: -300%; 
+    }
+
+    
+    .btn_start {
+        position: absolute;
+        z-index: 10;
+        top: 120%;
+        text-align: center;
+        cursor: pointer;
+        transition: all 0.9s;
+        right: 50%;
+        transform: translateX(50%);
+        animation: pulse5 2s ease-in-out infinite;
+
+        @keyframes pulse5 {
+            0% {
+                transform: scale(1, 1);
+                opacity: 0.5;
+            }
+        
+            50% {
+                opacity: 1;
+            }
+        
+            100% {
+                transform: scale(6, 6);
+                opacity: 0;
+                }
+            }
+        
+
+        img {
+            width: 25%;
+        }
+
+        @media (min-width: 500px) {
+            top: 110%;
+        }
+
+        @media  (min-width: 650px) {
+            top: 100%;
+        }
+
+        @media  (min-width: 758px) {
+            top: 90%;
+        }
+
+        @media  (min-width: 850px) {
+            top: 85%;
+        }
+
+        @media  (min-width: 1100px) {
+            top: 80%;
+        }
+    
+        @media (min-width: 1299px) {
+            visibility: hidden;
+        }
+    }
+    
+    .btn_start_min {
+        right: 30%;
+        top: 90%;
+        transition: all 0.9s;
+
+        @media (min-width: 430px) {
+            top: 85%;
+        }
+        @media (min-width: 450px) {
+            top: 83%;
+        }
+        @media (min-width: 950px) {
+            top: 79%;
+        }
+
+    }
+    
+
+    .map_img {
+        height: 100%;
+        position: relative;  
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%); 
+
+        img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .dfomap, .krasnmap, .ryazmap, .sakhalin, .kuril {
+        width: 38%;
+        cursor: pointer;
+        position: absolute;
+        z-index: 10;
+        top: 10%;
+        right: 14%;
+        opacity: 0.6;
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .sakhalin {
+        width: 5.4%;
+        top: 52%;
+        right: 20.7%;
+        pointer-events: none;
+    }
+
+    .kuril {
+        width: 2.37%;
+        top: 48.17%;
+        right: 15.86%;
+        pointer-events: none;
+    }
+    
+
+    .krasnmap {
+        width: 10.5%;
+        top: 49%;
+        right: 51.5%;
+    }
+
+    .ryazmap {
+        width: 3%;
+        top: 33%;
+        right: 84%;
+    }
+
+    .home_icon_dfo, .home_icon_krasn, .home_icon_ryaz {
+        width: 35px;
+        height: 35px;
+        display: block;
+        position: absolute;
+        z-index: 11;
+        top: 40%;
+        right: 36%;
+        cursor: pointer;
+        img {
+            width: 100%;
+        }
+
+        @media  (min-width: 800px) {
+            width: 45px;
+            height: 45px;
+        }
+
+        @media  (min-width: 1299px) {
+            width: 54px;
+            height: 54px;
+        }
+
+    }
+
+    .home_icon_krasn {
+        top: 53%;
+        right: 56%;   
+    }
+
+    .home_icon_ryaz { 
+        top: 33%;
+        right: 83%;
+    }
+
+}
+
+ .min_map {
+    width: 170%;
+    left: 20%;
+    top: -165%;
+
+    @media  (min-width: 330px) {
+        top: -185%;
+    }
+
+    @media  (min-width: 350px) {
+        top: -190%;
+    }
+
+    @media  (min-width: 390px) {
+        top: -205%;
+    } 
+
+    @media  (min-width: 425px) {
+        top: -225%;
+    }
+
+    @media  (min-width: 450px) {
+        top: -250%;
+    }
+
+    @media  (min-width: 470px) {
+        top: -280%;
+    }
+    @media  (min-width: 500px) {
+        top: -290%;
+    }
+    @media  (min-width: 550px) {
+        top: -325%;
+    }
+    @media  (min-width: 650px) {
+        top: -430%;
+    }
+    @media  (min-width: 758px) {
+        top: -490%;
+    }
+    @media  (min-width: 900px) {
+        top: -560%;
+    }
+    @media  (min-width: 1000px) {
+        top: -550%;
+    }
+    @media  (min-width: 1100px) {
+        top: -620%;
+    }
+} 
+
+
+.svg-area {
+	display: block;
+    position: absolute;
+    z-index: 15;
+    top: 30%;
+    right: 35%;
+    width: 15%;
+    pointer-events: none;
+	
+	
+}
+
+#core {
+	fill: #59c0ff;
+	animation: pulse1 1.5s ease-in-out infinite;
+}
+
+#radar  {
+	fill: rgba(#59c0ff, .5);
+	animation: pulse2 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse1 {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+
+	30% {
+		opacity: 1;
+		transform: scale(1.5);
+	}
+
+	60% {
+		opacity: 1;
+		transform: scale(2);
+	}
+
+	100% {
+		opacity: 0;
+		transform: scale(2);
+	}
+}
+
+@keyframes pulse2 {
+	0% {
+		transform: scale(1, 1);
+		opacity: 0;
+	}
+
+	50% {
+	    opacity: 1;
+	}
+
+	100% {
+	    transform: scale(6, 6);
+	    opacity: 0;
+		}
+	}
+
+
+.svg-area1 {
+        display: block;
+        position: absolute;
+        z-index: 15;
+        top: 35%;
+        right: 25%;
+        width: 15%;
+        pointer-events: none;
+        
+        
+    }
+    
+    #core1 {
+        fill: #59c0ff;
+        animation: pulse11 1.5s ease-in-out infinite;
+    }
+    
+    #radar1  {
+        fill: rgba(#59c0ff, .5);
+        animation: pulse2 1.5s ease-in-out infinite;
+    }
+    
+    @keyframes pulse11 {
+        0% {
+            opacity: 0;
+            transform: scale(2);
+        }
+    
+        30% {
+            opacity: 0;
+            transform: scale(0);
+        }
+    
+        60% {
+            opacity: 1;
+            transform: scale(1.5);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: scale(2);
+        }
+
+    }
+
+    .svg-area2 {
+        display: block;
+        position: absolute;
+        z-index: 15;
+        top: 30%;
+        right: 12%;
+        width: 15%;
+        pointer-events: none;
+    }
+    
+    #core2 {
+        fill: #59c0ff;
+        animation: pulse1 2s ease-in-out infinite;
+    }
+    
+    #radar2  {
+        fill: rgba(#59c0ff, .5);
+        animation: pulse2 2s ease-in-out infinite;
+    }
+
+    .svg-area3 {
+        display: block;
+        position: absolute;
+        z-index: 15;
+        top: 55%;
+        right: 18.5%;
+        width: 15%;
+        pointer-events: none;
+    }
+    #core3 {
+        fill: #59c0ff;
+        animation: pulse1 1.5s  infinite;
+    }
+    
+    #radar3  {
+        fill: rgba(#59c0ff, .5);
+        animation: pulse2 1.5s  infinite;
+    }
+
+    .svg-area4 {
+        display: block;
+        position: absolute;
+        z-index: 15;
+        top: 49.5%;
+        right: 50.5%;
+        width: 15%;
+        pointer-events: none;
+    }
+    #core4 {
+        fill: #59c0ff;
+        animation: pulse1 1.2s ease-in-out  infinite;
+    }
+    
+    #radar4  {
+        fill: rgba(#59c0ff, .5);
+        animation: pulse2 1.2s ease-in-out infinite;
+    }
+
+    .point6 {
+        top: 46%;
+        right: 27%;
+    }
+
+    .point7 {
+        width: 13%;
+        top: 44%;
+        right: 52.5%;
+    }
+
+    
+    .point8 {
+        width: 11%;
+        top: 27%;
+        right: 80.5%;
+    }
+
+    .point9 {
+        width: 11%;
+        top: 50%;
+        right: 17.5%;
+    }
+
+
+
+
+    
+    
+    

@@ -1,0 +1,325 @@
+.popup_dfo, .popup_krasn, .popup_ryaz, .popup_yakutsk, .popup_service {
+    display: none; 
+    /* visibility: hidden;  */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    z-index: 11;
+    background-color:rgba(0, 0, 0, 0.2);
+    overflow-Y: auto; 
+    transition: all 0.4s ease-in-out;
+
+
+
+
+    .popup_content {
+        /* display: none;  */
+        position: fixed;
+        top: 10%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        width: 320px;
+        background-color: #FBFBFB;
+        border-radius: 20px;
+        overflow-Y: auto;
+        overflow-x: hidden;
+        max-height: calc(100vh - 200px);
+
+        @media (min-width: 850px) {
+            width: 630px;
+        }
+        
+    }
+    
+    .popup_close {
+        position: absolute;
+        z-index: 12;
+        width: 60px;
+        padding-top: 20px;
+        height: 60px;
+        text-align: center;
+        top: 0;
+        right: 0;
+        cursor: pointer;     
+    }
+
+    .popup_subtitle {
+        position: relative;
+        margin-top: 27px;
+        padding-left: 49px;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 19px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #000000;
+
+        &::before {
+            content: '';
+            height: 1px;
+            width: 31px;
+            position: absolute;
+            top: 11px;
+            left: 0;
+            background-color: #000;
+        }
+
+        @media (min-width: 850px) {
+            font-size: 12px;
+        }
+    }
+
+    .popup_wrapper {
+        width: 100%;
+    }
+
+    .popup_slider_fotoeric {
+        width: 100%;
+    }
+
+    .popup_title {
+        margin-top: 17px;
+        padding-left: 49px;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: 0.14em;
+        color: #000000;
+        @media (min-width: 850px) {
+            font-size: 18px;
+            line-height: 19px;
+            letter-spacing: 0.14em;
+        }
+    }
+
+    .popup_img {
+        text-align: center;
+        border-bottom: 1px solid #F0F0F0;
+        padding-bottom: 13px;
+        /* padding-top: 13px; */
+        margin-bottom: 8px;
+        height: 130px;
+        img {
+            height: 110%;
+            object-fit: cover;
+        }
+        @media (min-width: 850px) {
+            height: 178px;
+            border-bottom: none;
+            margin-bottom: 16px;
+        }
+        
+    }
+    
+    .popup_descr, .popup_descr2, .popup_descr3 {
+        padding-left: 50px;
+        padding-right: 20px;
+        margin-top: 8px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19px;
+        color: #000000;
+        @media (min-width: 850px) {
+            margin-top: 18px;
+            font-size: 14px;
+            line-height: 19px;
+            color: #000000;
+        }
+    }
+
+    .popup_descr2 {
+        display: none;
+        color: rgba(0, 0, 0, 0.62);
+        
+
+        .descr_then {
+            padding-left: 90px;
+            padding-bottom: 15px;
+            font-size: 7.62px;
+            line-height: 23px;
+            text-align: center - 50px;
+            letter-spacing: 0.29em;
+            text-transform: uppercase;
+            color: rgba(0, 0, 0, 0.62);
+        }
+
+        @media (min-width: 850px) {
+            display: none;
+        }
+        
+    }
+
+    .popup_descr3 {
+        display: block;
+        padding-bottom: 15px;
+
+        @media (min-width: 850px) {
+            display: block;
+            padding-bottom: 25px;
+        }
+        
+    }
+
+
+    .fotoeric {
+        width: 100%;
+        height: 180px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        @media (min-width: 850px) {
+            height: 268px;
+        }
+        
+    }
+}
+
+
+
+
+.popup_service {
+    display: block; 
+    visibility: hidden;  
+
+    .popup_img {
+        padding: 0;
+        height: 216px;
+        width: 100%;
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .popup_subtitle {
+
+        &::before { 
+            top: 59%; 
+        }
+    }
+
+    .popup_content {
+        max-height: unset;
+    }
+ 
+}
+
+
+
+
+.popup_slider_service {
+    margin-top: 32px;
+    padding: 10px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:center;
+
+    @media (min-width: 850px) {
+        padding-left: 45px;
+    }
+
+}
+
+.subservice_wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.18);
+    border-radius: 15px;
+    width: 296px;
+    margin-bottom: 7px;  
+    outline: none;
+    @media (min-width: 850px) {
+        width: 496px; 
+    } 
+}
+
+.subservice {
+    position: relative;
+    display: flex; 
+    align-items: center;
+    margin-bottom: 7px;
+    width: 100%;
+   /*  width: 296px;   
+    background: #FFFFFF;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.18);
+    border-radius: 15px;
+
+    @media (min-width: 850px) {
+        width: 496px; 
+    } */
+
+    .icon {
+        margin: 13px 20px 13px 20px;
+    }
+    .name {
+        
+        align-self: center;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 19px;
+        color: #000000;
+        padding-right: 45px;
+        padding-top: 5px;
+
+        @media (min-width: 850px)  {
+            font-size: 15px;
+            line-height: 21px;
+            padding-right: 75px;
+        }
+
+
+        &::after {
+            content: '';
+            background: url('../img/arrow_service.svg') no-repeat;
+            position: absolute;
+            right: 10%;
+            top: 35%;
+            width: 15px;
+            height: 15px;
+
+        }
+    }
+}
+
+
+.subservice_descr {
+    
+    display: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #000000;
+    width: 100%;
+    padding: 5px 20px 20px 50px;
+
+    @media (min-width: 850px) {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+}
+
+.active_subservice_descr {
+    display: block;
+}
+
+
+.yakutsk_box {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+    img {
+        width: 100%;
+    }
+
+    .popup_descr, .popup_descr2, .popup_descr3  {
+        padding-left: 0;
+    }
+}

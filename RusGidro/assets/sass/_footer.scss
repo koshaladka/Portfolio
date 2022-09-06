@@ -1,0 +1,37 @@
+footer {
+   background-color: #004274;
+   height: 240px;
+   padding-top: 62px;
+
+   
+}
+
+.white_logo_footer {
+    position: relative;     
+    text-align: center;
+    @media (min-width: 1299px) {
+            img {
+                width: 8%;
+            }
+    }
+
+    &::before {
+        content: '';
+        width: 98px;
+        height: 1px;
+        position: absolute;
+        top: 120%;
+        background-color: #fff;
+
+        @media (min-width: 1299px) {
+            width: 88px;
+        }
+
+    }
+}
+
+.social {
+    margin-top: 43px;
+    text-align: center;
+}
+

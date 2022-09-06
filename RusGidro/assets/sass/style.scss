@@ -1,0 +1,63 @@
+@import "main";
+@import "popups";
+@import "map";
+@import "slider";
+@import "services";
+@import "open";
+@import "footer";
+
+
+html,
+body {
+    
+    font-family: "Arial", sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    max-width: 100%; 
+    overflow-x: hidden;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+    
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+         -khtml-user-select: none; /* Konqueror HTML */
+           -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome, Edge, Opera and Firefox */
+    
+
+}
+
+.container {
+  position: relative;
+  max-width: 1720px;
+  margin: 0 auto;
+}
+
+.container_small {
+  position: relative;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+.faded {
+  animation-name: faded;
+  animation-duration: 1.5s;
+}
+
+@keyframes faded {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}

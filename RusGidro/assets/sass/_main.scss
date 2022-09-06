@@ -1,0 +1,221 @@
+.main {
+    position: relative;
+    background: #004D86;
+    padding-top: 25px;
+    height: auto; 
+
+    .white_logo {
+        
+        text-align: center;
+        @media (min-width: 1299px) {
+            img {
+                width: 8%;
+            }
+            
+        }
+    }
+
+      
+
+
+    @media (min-width: 1299px) {
+        height: auto;
+    }
+    
+
+    .container {
+        position: relative;
+        padding: 0 15px;
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+
+    
+
+    .main_title {
+        position: relative;
+        padding-left: 10px;
+        margin-top: 50px;
+        @media (min-width: 1299px) {
+            margin-top: 70px;
+        }
+     
+    }
+
+    .main_subtitle {
+        font-weight: 400;
+        font-size: 10.62px;
+        line-height: 23px;
+        letter-spacing: 0.35em;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.62);
+        padding-left: 6px;
+
+        @media (min-width: 1299px) {
+            font-size: 18px;
+            line-height: 23px;
+        }
+    }
+
+    .main_runningtitle {
+        position: absolute;
+        z-index: 10;
+        margin-top: 18px;
+        display: block;
+        font-weight: 900;
+        font-size: 100px;
+        line-height: 67px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: transparent;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, 0.48);
+
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        @media (min-width: 1299px) {
+            font-size: 255px;
+            line-height: 174px;
+        }
+    }
+
+    
+    
+
+
+   
+    .main_descr {
+        background: url('../img/logo_shadow.svg') no-repeat ;
+        margin: 600px 0 0 35px;
+        padding-bottom: 85px;
+        position: relative;
+
+
+        @media  (min-width: 550px) {
+            margin-top: 700px;
+        }
+
+        @media  (min-width: 900px) {
+            margin-top: 800px;
+        }
+
+        @media  (min-width: 800px) {
+            background-size: cover;
+        }
+       
+       
+        @media  (min-width: 1299px) {
+            margin-top: 850px;
+            padding-bottom: 134px;
+            padding-top: 112px;
+            
+        }
+    
+        @media  (min-width: 1299px) {
+            margin-top: 1000px;
+        }
+    
+        @media  (min-width: 1650px) {
+            margin-top: 1150px;
+        }
+    
+        
+        
+        
+
+        .container_small {
+            @media  (min-width: 1299px) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+        }
+        
+        
+    }
+
+    .main_descr_min {
+        margin-top: 650px;
+
+        @media  (min-width: 450px) {
+            margin-top: 700px;
+        }
+        @media  (min-width: 550px) {
+            margin-top: 800px;
+        }
+        @media  (min-width: 650px) {
+            margin-top: 900px;
+        }
+        @media  (min-width: 758px) {
+            margin-top: 1000px;
+        }
+        @media  (min-width: 900px) {
+            margin-top: 1150px;
+        }
+        @media  (min-width: 1100px) {
+            margin-top: 1250px;
+        }
+
+
+    }
+
+    .main-descr_title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27px;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+
+        @media  (min-width: 1299px) {
+            font-size: 28px;
+            line-height: 44px;
+        }
+    }
+
+    .main_descr_descr {
+        position: relative;
+        margin-top: 38px;
+        margin-left: 30px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+
+        @media  (min-width: 1299px) {
+            margin-top: 0px;
+            font-size: 18px;
+            line-height: 34px;
+        }
+
+        &:before {
+            content: '';
+            position: absolute;
+            height: 110%;
+            width: 3px;
+            background-color: #F6871F;
+            left: -30px;
+            top: -5%;
+
+            @media  (min-width: 1299px) {
+                height: 100%;
+                top: 5%;
+            }
+
+        }
+
+        
+    }
+
+}
+
+
+
+
+
+
+
+
